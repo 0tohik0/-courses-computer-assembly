@@ -348,7 +348,6 @@ html {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  background: #1a1d24;
 }
 
 h1, h2, h3 {
@@ -381,6 +380,11 @@ a:hover {
   font-weight: 700;
   font-size: 3rem;
   line-height: 140%;
+}
+
+.text {
+  font-weight: 400;
+  opacity: 0.4;
 }
 
 .button {
@@ -434,8 +438,11 @@ a:hover {
 }
 
 .promo {
+  position: relative;
   line-height: 140%;
   font-weight: 700;
+  padding-bottom: 218px;
+  background: url(../img/promo.png) no-repeat center \ cover;
 }
 
 .promo-title {
@@ -464,12 +471,55 @@ a:hover {
 .promo-timer__text {
   padding-top: 0.75rem;
   padding-left: 1.875rem;
-  font-weight: 400;
-  opacity: 0.4;
 }
 
 .number {
   padding-left: 1.625rem;
+}
+
+.students {
+  line-height: 150%;
+  padding-top: 53px;
+  padding-bottom: 53px;
+  background: #121212;
+}
+
+.students-buttom {
+  font-weight: 700;
+}
+
+.students-box__text {
+  font-weight: 400;
+}
+
+.w7 {
+  font-weight: 700;
+}
+
+.header {
+  padding-top: 3.125rem;
+  line-height: 150%;
+}
+
+.header-container {
+  max-width: 110rem;
+  margin: auto;
+}
+
+.header-logo {
+  cursor: pointer;
+}
+
+.header-menu {
+  margin-left: 11.25rem;
+}
+
+.header-menu__item {
+  margin-right: 3.5rem;
+}
+
+.header-menu__item:last-child {
+  margin-right: 0;
 }
 
 .header {
